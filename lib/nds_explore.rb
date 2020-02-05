@@ -13,7 +13,11 @@ end
 
 def print_first_directors_movie_titles
   movies = directors_database
-pp movies[0][:movies]
-end
+  index = 0
+  while index < movies.count
+    pp movies[0][:movies]
+    index += 1
+  end
 
+end
 print_first_directors_movie_titles
