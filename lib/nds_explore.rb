@@ -16,6 +16,8 @@ def print_first_directors_movie_titles
   index = 0
   while index < directors.count
     pp directors[index][:name] == "Stephen Spielberg"
+    if directors[index][:name] == "Stephen Spielberg"
+      puts "Im inside"
     index += 1
   end
 
