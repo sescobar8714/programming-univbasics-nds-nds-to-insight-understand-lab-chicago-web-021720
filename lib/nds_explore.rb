@@ -18,8 +18,8 @@ def print_first_directors_movie_titles
     pp directors[index][:name] == "Stephen Spielberg"
     if directors[index][:name] == "Stephen Spielberg"
       puts "Im inside"
+    end
     index += 1
   end
-
 end
 print_first_directors_movie_titles
