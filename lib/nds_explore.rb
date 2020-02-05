@@ -12,11 +12,11 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  movies = directors_database
+  directors = directors_database
   binding.pry
   index = 0
   while index < movies.count
-    pp movies[index][:title] == "Steven Spielberg"
+    pp movies[index][:title] == "Stephen Spielberg"
 
     index += 1
   end
