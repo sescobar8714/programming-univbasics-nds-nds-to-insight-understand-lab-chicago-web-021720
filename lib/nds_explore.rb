@@ -15,9 +15,8 @@ def print_first_directors_movie_titles
   directors = directors_database
   binding.pry
   index = 0
-  while index < movies.count
-    pp movies[index][:title] == "Stephen Spielberg"
-
+  while index < directors.count
+    pp directors[index][:name] == "Stephen Spielberg"
     index += 1
   end
 
